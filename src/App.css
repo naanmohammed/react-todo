@@ -38,6 +38,17 @@ h1 {
   justify-content: center;
 }
 
+li button {
+  background-color: #541055;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
 .container form input[type="text"] {
   width: 300px;
   background-color: #e1b9e2;
@@ -67,7 +78,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
 }
 
 .pending_tasks {
@@ -75,17 +85,6 @@ ul {
   font-size: 1.5rem;
   margin-top: 5px;
   margin-right: 50px;
-}
-
-li button {
-  background-color: #541055;
-  border: none;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
-  padding: 5px 20px;
-  font-weight: 900;
-  font-size: 1rem;
 }
 
 .tasks {
