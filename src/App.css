@@ -1,0 +1,140 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body {
+  background: #4d244e;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 20%;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #6a386b;
+  border-radius: 20px;
+}
+
+h1 {
+  color: #aa8e8d;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+li button {
+  background-color: #541055;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.container form input[type="text"] {
+  width: 300px;
+  background-color: #e1b9e2;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.container form button {
+  background-color: #541055;
+  width: 100px;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.container h4 {
+  font-size: 1.5rem;
+  color: #e1b9e2;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pending_tasks {
+  color: #c115c4;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-right: 50px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.task_buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.complete_button {
+  background-color: #8eb929;
+}
+
+.delete_button {
+  background-color: darkred;
+}
+
+.completed_tasks {
+  color: #c113c4;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  margin-right: 50px;
+  text-decoration: line-through;
+}
+
+li {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+li.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
+.todo-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.todo-form button[type="submit"] {
+  background-color: #2ecc71;
+}
+
+input {
+  min-height: 20px;
+  margin: 20px;
+}
